@@ -1,0 +1,6 @@
+python
+import sys
+sys.path.insert(0, '/home/chen/xq/external_toolchain/xiaoqiang_r1d/toolchain/arm-xiaomi-linux-uclibcgnueabi/share/gcc-4.8.2/python')
+from libstdcxx.v6.printers import register_libstdcxx_printers
+register_libstdcxx_printers (None)
+end
