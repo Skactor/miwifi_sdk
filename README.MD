@@ -10,6 +10,7 @@ To compile
 
     make V=s # compile world and index
     make package/comile # compile package
+    make V=s -j=99 IGNORE_ERRORS=m # compile quickly and ignore errors 
 
 To clean
 
